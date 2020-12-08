@@ -1,0 +1,94 @@
+html {
+	height: 100%;
+}
+table {
+	width: 35%;
+	float: right;
+	padding-right: 3%;
+}
+th {
+	padding-left: 7%;
+	padding-right: 5%;
+}
+
+a:link, a:visited, a:active {
+	color: gray;
+	text-decoration: none;
+}
+a:hover {
+	opacity: 0.8;
+}
+body {
+	color: gray;
+	background-color: #000000;
+	background-image: url(background.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+
+}
+h3 {
+	
+	margin-top: 1%;
+	margin-left: 0.5%;
+}
+h1 {
+	position: relative;
+	top: 35%;
+	left: 730%;
+	height: 30%;
+	width: 800%;
+	text-align: center;
+	margin-top: 20%;
+	color: #ffffff;
+}
+#leftBox {
+	clear: right;
+	background-color: #444444;
+	margin-top: 1%;
+	margin-bottom: 0;
+	height: 93vh;
+	width: 5%;
+}
+#instagram {
+	position: absolute;
+	background-image: url(instagram.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 5.5%;
+	top: 67.5%;
+	left: 1.6%;
+}
+#facebook {
+	position: absolute;
+	background-image: url(facebook.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 5%;
+	top: 77%;
+	left: 1.7%;
+	background-color: #444444;
+}
+#linkedIn {
+	position: absolute;
+	height: 6%;
+	top: 85%;
+	left: 1.5%;
+}
+#gitHub {
+	position: absolute;
+	height: 5.5%;
+	top: 93%;
+	left: 1.65%;
+}
+#about {
+	margin-top: 100%;
+	margin-bottom: 100%;
+	background-color: #111111;
+}
+h2 {
+	margin-left: 25%;
+}
+#aboutMe {
+	text-align: justify;
+	width: 50%;
+}
