@@ -4,10 +4,10 @@
 	<title>Portfolio</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="styles.css">
+	<script type="text/javascript" src="script.js"></script>
 </head>
 <body>
 	<!-- Tabs to go to different sections of page. -->
-	<section class="homePage">
 	<div id="tab">
 		<table>
 			<th><a href="portfolio.html">home</a></th>
@@ -17,21 +17,26 @@
 			<th><a href="contact.html">contact me</a></th>
 		</table>
 </div>
-<!-- Welcome greeting. -->
+
 <h3>ryanMcCutcheonDevelopment</h3>
 
+<!-- Contact box and links. -->
+	<h1 id="contactHead">Contact Me</h1>
 
-	<h1>Hi, </br>I'm <span id="name">Ryan McCutcheon.</span></br>A web developer that can make your dream website a reality.</h1>
-	<div id="getStarted"><a class="contactLink" href="contact.html"><p>Let's get started!</p></a></div>
+	<form>
+		<input type="text" name="name" placeholder="Name" required /><br/>
+		<input type="email" name="email" placeholder="name@email.com" required /><br/>
+		<textarea type="text" name="message" placeholder="Message" required></textarea>
+		<input type="submit" name="submit" value="Submit" class="submit">
 
+	</form>
 
+<!-- Links to social media accounts. -->
 <a href="https://www.instagram.com/cutchtwenty1/"><img id="instagram" alt="instagram" src="instagram.png"></a>
 <a href="https://www.facebook.com/ryan.mccutcheon.142"><img id="facebook" alt="facebook" src="facebook.png"></a>
 <a href="https://www.linkedin.com/in/ryan-mccutcheon-185b261b8/"><img id="linkedIn" alt="linkedIn" src="linkedin.png"></a>
 <a href="https://github.com/ryanmccutcheon21"><img id="gitHub" alt="gitHub" src="github.png"></a>
 
-
-</section>
 
 </body>
 </html>

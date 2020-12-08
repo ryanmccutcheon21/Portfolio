@@ -17,12 +17,13 @@ a:link, a:visited, a:active {
 }
 a:hover {
 	opacity: 0.8;
+	color: #c1250f;
 }
 body {
 	color: gray;
 	background-color: #000000;
 	background-image: url(background.jpg);
-	background-size: 100%;
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
 
 }
@@ -32,63 +33,118 @@ h3 {
 	margin-left: 0.5%;
 }
 h1 {
-	position: relative;
-	top: 35%;
-	left: 730%;
-	height: 30%;
-	width: 800%;
 	text-align: center;
-	margin-top: 20%;
-	color: #ffffff;
+	margin-top: 16%;
+	margin-left: 10%;
+	color: #fff;
 }
-#leftBox {
-	clear: right;
-	background-color: #444444;
-	margin-top: 1%;
-	margin-bottom: 0;
-	height: 93vh;
-	width: 5%;
+#name {
+	color: #c1250f;
 }
-#instagram {
+#getStarted {
 	position: absolute;
+	margin-left: 46.5%;
+	width: 15%;
+	height: 7%;
+	border: 2px solid gray;
+}
+a.contactLink:link, a.contactLink:visited {
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+}
+a.contactLink:hover  {
+	background-color: #fff;
+	color: #c1250f;
+}
+ a.contactLink:active {
+ 	text-decoration: none;
+ }
+#instagram {
+	position: fixed;
 	background-image: url(instagram.png);
 	background-repeat: no-repeat;
 	background-size: 100%;
 	height: 5.5%;
-	top: 67.5%;
+	top: 65.5%;
 	left: 1.6%;
 }
 #facebook {
-	position: absolute;
+	position: fixed;
 	background-image: url(facebook.png);
 	background-repeat: no-repeat;
 	background-size: 100%;
 	height: 5%;
-	top: 77%;
+	top: 75%;
 	left: 1.7%;
-	background-color: #444444;
 }
 #linkedIn {
-	position: absolute;
+	position: fixed;
 	height: 6%;
-	top: 85%;
+	top: 83%;
 	left: 1.5%;
 }
 #gitHub {
-	position: absolute;
+	position: fixed;
 	height: 5.5%;
-	top: 93%;
+	top: 91%;
 	left: 1.65%;
 }
-#about {
-	margin-top: 100%;
-	margin-bottom: 100%;
-	background-color: #111111;
-}
 h2 {
-	margin-left: 25%;
+	margin-left: 10%;
+	color: #fff;
+	text-align: center;
+	margin-top: 15%;
 }
 #aboutMe {
 	text-align: justify;
 	width: 50%;
+	margin-left: 28.5%;
+	color: #fff;
+}
+#mySkills {
+	text-align: justify;
+	width: 40%;
+	margin-left: 33%;
+	color: #fff;
+	float: left;
+}
+#mySkills2 {
+	text-align: justify;
+	width: 50%;
+	margin-left: 57%;
+	color: #fff;
+}
+form {
+	text-align: center;
+	margin-left: 10%;
+}
+.submit {
+	background-color: gray;
+	border-radius: 15px;
+	cursor: pointer;
+	color: #ffffff;
+	font-weight: bold;
+	width: 53%;
+}
+.submit:hover {
+	background-color: #c1250f;
+	opacity: 0.8;
+}
+input, textarea {
+	margin-bottom: 10px;
+	font-size: 11pt;
+	padding: 15px 10px 10px;
+	border: 1px solid gray;
+	background-color: #efefef;
+	color: #787575;
+	border-radius: 15px;
+	width: 50%;
+	outline: none;
+}
+textarea {
+	height: 100px;
+}
+#contactHead {
+	margin-top: 10%;
 }
